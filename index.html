@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Burger</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="title"> 
+            <h1>Create your Burger</h1>
+        </div>
+        <div class="image">
+            <img src="img/burger-top.png" alt="burger">
+        </div>
+    </header>
+    <!--  / Header -->
+    <!-- Main -->
+    <main>
+        <input type="text" name="burgerName" id="burgerName" placeholder="Name Your Burger">
+        <h2>Ingredients</h2>
+        <div class="contenitore-cibi">
+            <div class="ingredients1">
+                <img src="img/cheese.svg" alt=""height="50px">
+                <p>Cheese</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+            <div class="ingredients1">
+                <img src="img/fried-egg.svg" alt=""height="50px">
+                <p>Egg</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+            <div class="ingredients1">
+                <img src="img/mustard.svg" alt=""height="50px">
+                <p>Mustard</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+        </div>
+    
+        <div class="contenitore-cibi2">
+            <div class="ingredients2">
+                <img src="img/tomato.svg" alt=""height="50px">
+                <p>Tomato</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+            <div class="ingredients2">
+                <img src="img/lettuce.svg" alt=""height="50px">
+                <p>Lettuce</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+            <div class="ingredients2">
+                <img src="img/ketchup.svg" alt=""height="50px">
+                <p>Ketchup</p>
+                <input  class="add1" type="checkbox" name="add1" value="4">
+                <p id="add">Add</p>
+            </div>
+        </div>
+        <div class="discount">
+            <label for="couponCode">Discount Coupon</label>
+            <div class="input2">
+                <input id="couponCode" type="text" name="" value="" placeholder="Inserisci qui il tuo coupon">
+            </div>
+        </div>
+        <div class="Calcola1">
+            <button id="btn" type="submit">Calcola</button>
+        </div>
+    </main>
+    <!--  / Header -->
+    <!-- Footer -->
+    <footer>
+        <div class="prezzoFinale">
+            <span class="prezzo">Your Price</span>
+            <span id="finalPrice">$50</span>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
